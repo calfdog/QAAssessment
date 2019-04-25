@@ -8,7 +8,7 @@ class BasePage(object):
 
 
 class MainPage(BasePage):
-    """Home page action methods come here. I.e. Python.org"""
+    """Values page (MainPage) action methods come here. I.e. Python.org"""
 
     def get_txt_val_1(self):
         """Triggers the search"""
