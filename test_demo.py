@@ -9,7 +9,7 @@ class AmountValidation(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome('../drivers/chromedriver.exe')
-        self.driver.get("https://courses.ultimateqa.com/users/sign_in")
+        self.driver.get("https://excercise1.com")
 
     def to_money(self, amt):
         """Parses the string and returns a numerical value"""
